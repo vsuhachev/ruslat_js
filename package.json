@@ -1,0 +1,24 @@
+{
+  "name": "ruslat",
+  "version": "1.0.0",
+  "description": "Bidirectional russian transliteration library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsuhachev/ruslat_js.git"
+  },
+  "keywords": [
+    "russian",
+    "translit",
+    "transliteration"
+  ],
+  "author": "Vasiliy Sukhachev <vsuhachev@yandex.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vsuhachev/ruslat_js/issues"
+  },
+  "homepage": "https://github.com/vsuhachev/ruslat_js#readme"
+}
