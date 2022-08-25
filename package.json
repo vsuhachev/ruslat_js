@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Bidirectional russian transliteration library",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jasmine"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/vsuhachev/ruslat_js/issues"
   },
-  "homepage": "https://github.com/vsuhachev/ruslat_js#readme"
+  "homepage": "https://github.com/vsuhachev/ruslat_js#readme",
+  "devDependencies": {
+    "jasmine": "^4.3.0"
+  }
 }
