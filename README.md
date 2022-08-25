@@ -2,7 +2,7 @@
 
 Ruslat is library for bidirectional transliteration for russian to latin.
 
-It is Ruby implementation of Andrey V. Lukyanov transliteration system.
+It is Javascript implementation of Andrey V. Lukyanov transliteration system.
 See <http://tapemark.narod.ru/ruslat.html> for more info.
 
 ## Installation
@@ -14,7 +14,7 @@ Install from npm:
 ## Usage
 
 ```js
-import * from 'ruslat'
+import {rusToLat, latToRus, latCaseCorrect, rusTypoCorrect, latTypoCorrect} from 'ruslat'
 
 rusToLat("Привет Мир!") // => "Privet Mir!"
 latToRus("Privet Mir!") // => "Привет Мир!"
